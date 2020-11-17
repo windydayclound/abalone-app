@@ -10,7 +10,6 @@ st.sidebar.header('User Input')
 st.sidebar.subheader('Please enter your data:')
 
 
-
 def get_input():
     #widgets
     v_Sex = st.sidebar.radio('Sex', ['Male','Female','Infant'])
